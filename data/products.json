@@ -1,1258 +1,1382 @@
 [
   {
-    "_id": "63bf7ac9f03239e002001600",
-    "price": "$43.41",
-    "expense": "$5.97",
-    "transactions": [
+    "_id":"63bf7ac9f03239e002001600",
+    "price":43.4099998474,
+    "expense":5.9699997902,
+    "transactions":[
       "63bf7ccef03239554c002449",
       "63bf7ccef03239855d00155c",
       "63bf7ccef032397b4f001603",
       "63bf7ccef03239eb9d0016d4"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f03239e002001601",
-    "price": "$60.13",
-    "expense": "$9.12",
-    "transactions": [
+    "_id":"63bf7ac9f03239e002001601",
+    "price":60.1300010681,
+    "expense":9.1199998856,
+    "transactions":[
       "63bf7ccef032396a8e001696",
       "63bf7ccef0323922d2001694",
       "63bf7ccef03239855d001557",
       "63bf7ccef03239554c00244d"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f03239e002001602",
-    "price": "$195.05",
-    "expense": "$6.72",
-    "transactions": [
+    "_id":"63bf7ac9f03239e002001602",
+    "price":195.0500030518,
+    "expense":6.7199997902,
+    "transactions":[
       "63bf7ccef03239e002001606",
       "63bf7ccef0323922d200169a"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239e002001603",
-    "price": "$46.25",
-    "expense": "$9.95",
-    "transactions": [
+    "_id":"63bf7ac9f03239e002001603",
+    "price":46.25,
+    "expense":9.9499998093,
+    "transactions":[
       "63bf7ccef03239aec900155b",
       "63bf7ccef03239eb9d0016d3",
       "63bf7ccef03239aec9001559"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f03239e002001604",
-    "price": "$87.41",
-    "expense": "$7.97",
-    "transactions": [
+    "_id":"63bf7ac9f03239e002001604",
+    "price":87.4100036621,
+    "expense":7.9699997902,
+    "transactions":[
       "63bf7ccef03239855d00155d",
       "63bf7ccef03239855d001561",
       "63bf7ccef03239e00200160e",
       "63bf7ccef0323922d2001697",
       "63bf7ccef032394f5f002442"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239e002001605",
-    "price": "$73.28",
-    "expense": "$7.85",
-    "transactions": [
+    "_id":"63bf7ac9f03239e002001605",
+    "price":73.2799987793,
+    "expense":7.8499999046,
+    "transactions":[
       "63bf7ccef03239966c0016a0",
       "63bf7ccef03239966c00169f",
       "63bf7ccef032394cbd0016a0",
       "63bf7ccef03239554c002453",
       "63bf7ccef0323901e6001557"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239343e00169b",
-    "price": "$130.65",
-    "expense": "$7.95",
-    "transactions": [
+    "_id":"63bf7ac9f03239343e00169b",
+    "price":130.6499938965,
+    "expense":7.9499998093,
+    "transactions":[
       "63bf7ccef0323901e6001560",
       "63bf7ccef032396d89000013"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239343e00169c",
-    "price": "$198.54",
-    "expense": "$9.50",
-    "transactions": [
+    "_id":"63bf7ac9f03239343e00169c",
+    "price":198.5399932861,
+    "expense":9.5,
+    "transactions":[
       "63bf7ccef03239eb9d0016d9",
       "63bf7ccef032396a8e001696",
       "63bf7ccef03239cf1b0016a7",
       "63bf7ccef0323901e6001562"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f03239343e00169d",
-    "price": "$147.32",
-    "expense": "$5.86",
-    "transactions": [
+    "_id":"63bf7ac9f03239343e00169d",
+    "price":147.3200073242,
+    "expense":5.8600001335,
+    "transactions":[
       "63bf7ccef03239343e0016a9",
       "63bf7ccef03239f920001690"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239343e00169e",
-    "price": "$187.22",
-    "expense": "$5.82",
-    "transactions": [
+    "_id":"63bf7ac9f03239343e00169e",
+    "price":187.2200012207,
+    "expense":5.8200001717,
+    "transactions":[
       "63bf7ccef03239aec9001560",
       "63bf7ccef032396d8900000f",
       "63bf7ccef0323922d2001697"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f03239343e00169f",
-    "price": "$162.43",
-    "expense": "$3.28",
-    "transactions": [
+    "_id":"63bf7ac9f03239343e00169f",
+    "price":162.4299926758,
+    "expense":3.2799999714,
+    "transactions":[
       "63bf7ccef032395ccf001697",
       "63bf7ccef0323901e600155e",
       "63bf7ccef03239aec9001559"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f03239343e0016a0",
-    "price": "$30.09",
-    "expense": "$8.55",
-    "transactions": [
+    "_id":"63bf7ac9f03239343e0016a0",
+    "price":30.0900001526,
+    "expense":8.5500001907,
+    "transactions":[
       "63bf7ccef03239343e0016a3"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f0323901e6001551",
-    "price": "$31.07",
-    "expense": "$4.98",
-    "transactions": [
+    "_id":"63bf7ac9f0323901e6001551",
+    "price":31.0699996948,
+    "expense":4.9800000191,
+    "transactions":[
       "63bf7ccef032395ccf001695",
       "63bf7ccef03239eb9d0016dd",
       "63bf7ccef032397b4f001606",
       "63bf7ccef03239855d00155b",
       "63bf7ccef032397b4f001604"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f0323901e6001552",
-    "price": "$12.21",
-    "expense": "$6.82",
-    "transactions": [
+    "_id":"63bf7ac9f0323901e6001552",
+    "price":12.2100000381,
+    "expense":6.8200001717,
+    "transactions":[
       "63bf7ccef03239855d00155c",
       "63bf7ccef032395ccf001696",
       "63bf7ccef03239cf1b0016a2",
       "63bf7ccef032396a8e00169a",
       "63bf7ccef03239966c00169a"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f0323901e6001553",
-    "price": "$76.31",
-    "expense": "$3.84",
-    "transactions": [
+    "_id":"63bf7ac9f0323901e6001553",
+    "price":76.3099975586,
+    "expense":3.8399999142,
+    "transactions":[
       "63bf7ccef03239e002001608",
       "63bf7ccef0323922d200169b",
       "63bf7ccef03239eb9d0016e6"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f0323901e6001554",
-    "price": "$169.87",
-    "expense": "$8.35",
-    "transactions": [
+    "_id":"63bf7ac9f0323901e6001554",
+    "price":169.8699951172,
+    "expense":8.3500003815,
+    "transactions":[
       "63bf7ccef03239eb9d0016d5",
       "63bf7ccef03239966c00169e",
       "63bf7ccef0323974200016a7"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f0323901e6001555",
-    "price": "$187.36",
-    "expense": "$8.12",
-    "transactions": [
+    "_id":"63bf7ac9f0323901e6001555",
+    "price":187.3600006104,
+    "expense":8.1199998856,
+    "transactions":[
       "63bf7ccef032394f5f00243a",
       "63bf7ccef03239eb9d0016de",
       "63bf7ccef03239f920001696"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f0323901e6001556",
-    "price": "$67.29",
-    "expense": "$6.32",
-    "transactions": [
+    "_id":"63bf7ac9f0323901e6001556",
+    "price":67.2900009155,
+    "expense":6.3200001717,
+    "transactions":[
       "63bf7ccef032396d89000015",
       "63bf7ccef03239f920001690",
       "63bf7ccef03239eb9d0016d2"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f032394cbd001699",
-    "price": "$85.35",
-    "expense": "$9.33",
-    "transactions": [
+    "_id":"63bf7ac9f032394cbd001699",
+    "price":85.3499984741,
+    "expense":9.3299999237,
+    "transactions":[
       "63bf7ccef03239aec9001558",
       "63bf7ccef03239f92000169a",
       "63bf7ccef03239742000169d",
       "63bf7ccef03239554c00244a"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f032394cbd00169a",
-    "price": "$35.75",
-    "expense": "$9.93",
-    "transactions": [
+    "_id":"63bf7ac9f032394cbd00169a",
+    "price":35.75,
+    "expense":9.9300003052,
+    "transactions":[
       "63bf7ccef03239554c002453",
       "63bf7ccef03239e002001608",
       "63bf7ccef0323937a500168d"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f032394cbd00169b",
-    "price": "$59.80",
-    "expense": "$1.51",
-    "transactions": [
+    "_id":"63bf7ac9f032394cbd00169b",
+    "price":59.7999992371,
+    "expense":1.5099999905,
+    "transactions":[
       "63bf7ccef0323937a5001690",
       "63bf7ccef03239e00200160b",
       "63bf7ccef032394f5f002441",
       "63bf7ccef0323975d60016a3",
       "63bf7ccef032395ccf00169f"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f032394cbd00169c",
-    "price": "$86.45",
-    "expense": "$3.55",
-    "transactions": [
+    "_id":"63bf7ac9f032394cbd00169c",
+    "price":86.4499969482,
+    "expense":3.5499999523,
+    "transactions":[
       "63bf7ccef032396d8900000f"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f032394cbd00169d",
-    "price": "$142.21",
-    "expense": "$1.85",
-    "transactions": [
+    "_id":"63bf7ac9f032394cbd00169d",
+    "price":142.2100067139,
+    "expense":1.8500000238,
+    "transactions":[
       "63bf7ccef032396a8e001698",
       "63bf7ccef03239eb9d0016d0"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f032394cbd00169e",
-    "price": "$10.01",
-    "expense": "$5.61",
-    "transactions": [
+    "_id":"63bf7ac9f032394cbd00169e",
+    "price":10.0100002289,
+    "expense":5.6100001335,
+    "transactions":[
       "63bf7ccef03239e002001610",
       "63bf7ccef03239f920001699",
       "63bf7ccef03239966c00169a",
       "63bf7ccef03239e002001611",
       "63bf7ccef032394cbd00169f"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239cf1b001698",
-    "price": "$112.78",
-    "expense": "$6.74",
-    "transactions": [
+    "_id":"63bf7ac9f03239cf1b001698",
+    "price":112.7799987793,
+    "expense":6.7399997711,
+    "transactions":[
       "63bf7ccef032396a8e00169d",
       "63bf7ccef032396a8e001695"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239cf1b001699",
-    "price": "$156.34",
-    "expense": "$6.26",
-    "transactions": [
+    "_id":"63bf7ac9f03239cf1b001699",
+    "price":156.3399963379,
+    "expense":6.2600002289,
+    "transactions":[
       "63bf7ccef03239e002001606"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f03239cf1b00169a",
-    "price": "$119.34",
-    "expense": "$8.62",
-    "transactions": [
+    "_id":"63bf7ac9f03239cf1b00169a",
+    "price":119.3399963379,
+    "expense":8.6199998856,
+    "transactions":[
       "63bf7ccef0323975d600169e",
       "63bf7ccef03239554c00244b"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239cf1b00169b",
-    "price": "$87.49",
-    "expense": "$8.74",
-    "transactions": [
+    "_id":"63bf7ac9f03239cf1b00169b",
+    "price":87.4899978638,
+    "expense":8.7399997711,
+    "transactions":[
       "63bf7ccef03239343e0016ac",
       "63bf7ccef0323937a5001698"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239cf1b00169c",
-    "price": "$34.52",
-    "expense": "$2.31",
-    "transactions": [
+    "_id":"63bf7ac9f03239cf1b00169c",
+    "price":34.5200004578,
+    "expense":2.3099999428,
+    "transactions":[
       "63bf7ccef03239aec9001562",
       "63bf7ccef0323937a500168d"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239cf1b00169d",
-    "price": "$90.83",
-    "expense": "$7.83",
-    "transactions": [
+    "_id":"63bf7ac9f03239cf1b00169d",
+    "price":90.8300018311,
+    "expense":7.8299999237,
+    "transactions":[
       "63bf7ccef0323975d6001698",
       "63bf7ccef032394f5f002439",
       "63bf7ccef03239e00200160f",
       "63bf7ccef0323975d600169b",
       "63bf7ccef03239aec9001557"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239aec9001551",
-    "price": "$181.98",
-    "expense": "$3.02",
-    "transactions": [
+    "_id":"63bf7ac9f03239aec9001551",
+    "price":181.9799957275,
+    "expense":3.0199999809,
+    "transactions":[
       "63bf7ccef032395ccf001698",
       "63bf7ccef03239343e0016ab",
       "63bf7ccef0323975d60016a2",
       "63bf7ccef03239cf1b0016a7"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f03239aec9001552",
-    "price": "$62.17",
-    "expense": "$9.52",
-    "transactions": [
+    "_id":"63bf7ac9f03239aec9001552",
+    "price":62.1699981689,
+    "expense":9.5200004578,
+    "transactions":[
       "63bf7ccef03239855d00155e",
       "63bf7ccef03239966c00169e"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239aec9001553",
-    "price": "$83.76",
-    "expense": "$1.09",
-    "transactions": [
+    "_id":"63bf7ac9f03239aec9001553",
+    "price":83.7600021362,
+    "expense":1.0900000334,
+    "transactions":[
       "63bf7ccef0323975d60016a3",
       "63bf7ccef032394f5f002444",
       "63bf7ccef03239554c002450",
       "63bf7ccef032395ccf00169b"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f03239aec9001554",
-    "price": "$62.47",
-    "expense": "$2.38",
-    "transactions": [
+    "_id":"63bf7ac9f03239aec9001554",
+    "price":62.4700012207,
+    "expense":2.3800001144,
+    "transactions":[
       "63bf7ccef03239eb9d0016e4",
       "63bf7ccef03239eb9d0016d0",
       "63bf7ccef03239966c00169b",
       "63bf7ccef03239eb9d0016d5",
       "63bf7ccef0323975d6001698"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239aec9001555",
-    "price": "$54.68",
-    "expense": "$5.12",
-    "transactions": [
+    "_id":"63bf7ac9f03239aec9001555",
+    "price":54.6800003052,
+    "expense":5.1199998856,
+    "transactions":[
       "63bf7ccef032396d89000013",
       "63bf7ccef0323974200016a7",
       "63bf7ccef0323922d2001699",
       "63bf7ccef03239e002001608"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f03239aec9001556",
-    "price": "$91.72",
-    "expense": "$4.73",
-    "transactions": [
+    "_id":"63bf7ac9f03239aec9001556",
+    "price":91.7200012207,
+    "expense":4.7300000191,
+    "transactions":[
       "63bf7ccef03239cf1b0016a3",
       "63bf7ccef032394f5f00243e",
       "63bf7ccef0323974200016a2"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f03239554c002443",
-    "price": "$159.65",
-    "expense": "$3.79",
-    "transactions": [
+    "_id":"63bf7ac9f03239554c002443",
+    "price":159.6499938965,
+    "expense":3.7899999619,
+    "transactions":[
       "63bf7ccef03239554c00244e",
       "63bf7ccef03239855d001561",
       "63bf7ccef032395ccf00169b",
       "63bf7ccef03239343e0016aa",
       "63bf7ccef032394f5f002439"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239554c002444",
-    "price": "$190.89",
-    "expense": "$5.24",
-    "transactions": [
+    "_id":"63bf7ac9f03239554c002444",
+    "price":190.8899993896,
+    "expense":5.2399997711,
+    "transactions":[
       "63bf7ccef03239343e0016a2",
       "63bf7ccef0323974200016a3",
       "63bf7ccef0323922d200169c",
       "63bf7ccef03239966c00169e",
       "63bf7ccef03239cf1b0016a7"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239554c002445",
-    "price": "$155.13",
-    "expense": "$1.68",
-    "transactions": [
+    "_id":"63bf7ac9f03239554c002445",
+    "price":155.1300048828,
+    "expense":1.6799999475,
+    "transactions":[
       "63bf7ccef03239cf1b00169f",
       "63bf7ccef03239966c00169f",
       "63bf7ccef0323937a5001697",
       "63bf7ccef0323975d60016a2"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f03239554c002446",
-    "price": "$43.82",
-    "expense": "$7.85",
-    "transactions": [
+    "_id":"63bf7ac9f03239554c002446",
+    "price":43.8199996948,
+    "expense":7.8499999046,
+    "transactions":[
       "63bf7ccef03239eb9d0016dd",
       "63bf7ccef0323901e6001557"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239554c002447",
-    "price": "$58.31",
-    "expense": "$9.94",
-    "transactions": [
+    "_id":"63bf7ac9f03239554c002447",
+    "price":58.3100013733,
+    "expense":9.9399995804,
+    "transactions":[
       "63bf7ccef03239cf1b0016a6",
       "63bf7ccef03239966c00169a",
       "63bf7ccef0323974200016a1",
       "63bf7ccef0323975d600169c"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f03239554c002448",
-    "price": "$138.47",
-    "expense": "$6.40",
-    "transactions": [
+    "_id":"63bf7ac9f03239554c002448",
+    "price":138.4700012207,
+    "expense":6.4000000954,
+    "transactions":[
       "63bf7ccef032397b4f001606",
       "63bf7ccef03239f920001691",
       "63bf7ccef03239966c001698"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f032397420001696",
-    "price": "$10.40",
-    "expense": "$3.20",
-    "transactions": [
+    "_id":"63bf7ac9f032397420001696",
+    "price":10.3999996185,
+    "expense":3.2000000477,
+    "transactions":[
       "63bf7ccef03239966c00169a",
       "63bf7ccef032396d89000013",
       "63bf7ccef03239eb9d0016d6",
       "63bf7ccef032396a8e00169e"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f032397420001697",
-    "price": "$22.48",
-    "expense": "$5.36",
-    "transactions": [
+    "_id":"63bf7ac9f032397420001697",
+    "price":22.4799995422,
+    "expense":5.3600001335,
+    "transactions":[
       "63bf7ccef03239cf1b0016a6",
       "63bf7ccef03239eb9d0016df"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f032397420001698",
-    "price": "$92.16",
-    "expense": "$9.12",
-    "transactions": [
+    "_id":"63bf7ac9f032397420001698",
+    "price":92.1600036621,
+    "expense":9.1199998856,
+    "transactions":[
       "63bf7ccef03239cf1b0016a9",
       "63bf7ccef032396d89000015",
       "63bf7ccef03239f920001691",
       "63bf7ccef03239f920001699"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f032397420001699",
-    "price": "$140.77",
-    "expense": "$9.02",
-    "transactions": [
+    "_id":"63bf7ac9f032397420001699",
+    "price":140.7700042725,
+    "expense":9.0200004578,
+    "transactions":[
       "63bf7ccef0323974200016a2",
       "63bf7ccef032395ccf00169c",
       "63bf7ccef0323937a500168d"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f03239742000169a",
-    "price": "$100.62",
-    "expense": "$6.55",
-    "transactions": [
+    "_id":"63bf7ac9f03239742000169a",
+    "price":100.6200027466,
+    "expense":6.5500001907,
+    "transactions":[
       "63bf7ccef032394f5f002442",
       "63bf7ccef0323922d2001695",
       "63bf7ccef032395ccf001696",
       "63bf7ccef0323974200016a7"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f03239742000169b",
-    "price": "$69.13",
-    "expense": "$6.26",
-    "transactions": [
+    "_id":"63bf7ac9f03239742000169b",
+    "price":69.1299972534,
+    "expense":6.2600002289,
+    "transactions":[
       "63bf7ccef03239eb9d0016d0",
       "63bf7ccef0323975d600169c",
       "63bf7ccef03239cf1b0016a8"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f03239966c001692",
-    "price": "$124.82",
-    "expense": "$8.49",
-    "transactions": [
+    "_id":"63bf7ac9f03239966c001692",
+    "price":124.8199996948,
+    "expense":8.4899997711,
+    "transactions":[
       "63bf7ccef03239eb9d0016de",
       "63bf7ccef03239eb9d0016d3",
       "63bf7ccef0323974200016a7",
       "63bf7ccef032396d8900000e",
       "63bf7ccef032397b4f001607"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239966c001693",
-    "price": "$196.68",
-    "expense": "$3.32",
-    "transactions": [
+    "_id":"63bf7ac9f03239966c001693",
+    "price":196.6799926758,
+    "expense":3.3199999332,
+    "transactions":[
       "63bf7ccef03239554c002452",
       "63bf7ccef0323922d2001698",
       "63bf7ccef03239aec9001562",
       "63bf7ccef03239855d00155f",
       "63bf7ccef0323901e600155f"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239966c001694",
-    "price": "$172.48",
-    "expense": "$2.38",
-    "transactions": [
+    "_id":"63bf7ac9f03239966c001694",
+    "price":172.4799957275,
+    "expense":2.3800001144,
+    "transactions":[
       "63bf7ccef032394cbd0016a0",
       "63bf7ccef03239343e0016aa",
       "63bf7ccef032395ccf00169a",
       "63bf7ccef03239554c00244d",
       "63bf7ccef032396a8e001699"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239966c001695",
-    "price": "$112.84",
-    "expense": "$4.34",
-    "transactions": [
+    "_id":"63bf7ac9f03239966c001695",
+    "price":112.8399963379,
+    "expense":4.3400001526,
+    "transactions":[
       "63bf7ccef032396d89000013",
       "63bf7ccef03239554c00244c"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239966c001696",
-    "price": "$37.97",
-    "expense": "$5.76",
-    "transactions": [
+    "_id":"63bf7ac9f03239966c001696",
+    "price":37.9700012207,
+    "expense":5.7600002289,
+    "transactions":[
       "63bf7ccef032394f5f002440",
       "63bf7ccef03239eb9d0016df",
       "63bf7ccef0323937a5001694",
       "63bf7ccef032396a8e001698",
       "63bf7ccef032396a8e001696"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239966c001697",
-    "price": "$123.72",
-    "expense": "$2.85",
-    "transactions": [
+    "_id":"63bf7ac9f03239966c001697",
+    "price":123.7200012207,
+    "expense":2.8499999046,
+    "transactions":[
       "63bf7ccef03239eb9d0016e3",
       "63bf7ccef0323974200016a6",
       "63bf7ccef0323937a5001691"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f0323975d6001692",
-    "price": "$15.02",
-    "expense": "$2.00",
-    "transactions": [
+    "_id":"63bf7ac9f0323975d6001692",
+    "price":15.0200004578,
+    "expense":2.0,
+    "transactions":[
       "63bf7ccef032396a8e001697",
       "63bf7ccef0323975d6001698"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f0323975d6001693",
-    "price": "$19.69",
-    "expense": "$2.65",
-    "transactions": [
+    "_id":"63bf7ac9f0323975d6001693",
+    "price":19.6900005341,
+    "expense":2.6500000954,
+    "transactions":[
       "63bf7ccef0323937a500168e"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f0323975d6001694",
-    "price": "$30.80",
-    "expense": "$5.02",
-    "transactions": [
+    "_id":"63bf7ac9f0323975d6001694",
+    "price":30.7999992371,
+    "expense":5.0199999809,
+    "transactions":[
       "63bf7ccef0323975d600169f",
       "63bf7ccef032394f5f002440",
       "63bf7ccef032396a8e001695",
       "63bf7ccef03239742000169c"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f0323975d6001695",
-    "price": "$90.56",
-    "expense": "$2.93",
-    "transactions": [
+    "_id":"63bf7ac9f0323975d6001695",
+    "price":90.5599975586,
+    "expense":2.9300000668,
+    "transactions":[
       "63bf7ccef0323975d600169d"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f0323975d6001696",
-    "price": "$30.37",
-    "expense": "$8.63",
-    "transactions": [
+    "_id":"63bf7ac9f0323975d6001696",
+    "price":30.3700008392,
+    "expense":8.6300001144,
+    "transactions":[
       "63bf7ccef0323922d200169c",
       "63bf7ccef0323974200016a5",
       "63bf7ccef032394f5f002443"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f0323975d6001697",
-    "price": "$149.26",
-    "expense": "$1.33",
-    "transactions": [
+    "_id":"63bf7ac9f0323975d6001697",
+    "price":149.2599945068,
+    "expense":1.3300000429,
+    "transactions":[
       "63bf7ccef03239554c00244d",
       "63bf7ccef03239e002001606",
       "63bf7ccef03239eb9d0016d6",
       "63bf7ccef03239966c00169e"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f032396a8e00168e",
-    "price": "$167.45",
-    "expense": "$9.30",
-    "transactions": [
+    "_id":"63bf7ac9f032396a8e00168e",
+    "price":167.4499969482,
+    "expense":9.3000001907,
+    "transactions":[
       "63bf7ccef0323937a5001693",
       "63bf7ccef03239343e0016a9",
       "63bf7ccef032397b4f001608"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f032396a8e00168f",
-    "price": "$50.36",
-    "expense": "$4.38",
-    "transactions": [
+    "_id":"63bf7ac9f032396a8e00168f",
+    "price":50.3600006104,
+    "expense":4.3800001144,
+    "transactions":[
       "63bf7ccef032394f5f00243f"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f032396a8e001690",
-    "price": "$151.61",
-    "expense": "$2.27",
-    "transactions": [
+    "_id":"63bf7ac9f032396a8e001690",
+    "price":151.6100006104,
+    "expense":2.2699999809,
+    "transactions":[
       "63bf7ccef03239966c001699",
       "63bf7ccef03239742000169f"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f032396a8e001691",
-    "price": "$191.46",
-    "expense": "$5.60",
-    "transactions": [
+    "_id":"63bf7ac9f032396a8e001691",
+    "price":191.4600067139,
+    "expense":5.5999999046,
+    "transactions":[
       "63bf7ccef0323901e600155f"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f032396a8e001692",
-    "price": "$131.96",
-    "expense": "$8.80",
-    "transactions": [
+    "_id":"63bf7ac9f032396a8e001692",
+    "price":131.9600067139,
+    "expense":8.8000001907,
+    "transactions":[
       "63bf7ccef032397b4f001605",
       "63bf7ccef03239855d001561",
       "63bf7ccef03239eb9d0016d9",
       "63bf7ccef0323901e6001558",
       "63bf7ccef032394f5f002444"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f032396a8e001693",
-    "price": "$164.96",
-    "expense": "$4.16",
-    "transactions": [
+    "_id":"63bf7ac9f032396a8e001693",
+    "price":164.9600067139,
+    "expense":4.1599998474,
+    "transactions":[
       "63bf7ccef03239eb9d0016d8"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f032395ccf00168e",
-    "price": "$13.57",
-    "expense": "$5.18",
-    "transactions": [
+    "_id":"63bf7ac9f032395ccf00168e",
+    "price":13.5699996948,
+    "expense":5.1799998283,
+    "transactions":[
       "63bf7ccef032395ccf001695"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f032395ccf00168f",
-    "price": "$177.57",
-    "expense": "$7.04",
-    "transactions": [
+    "_id":"63bf7ac9f032395ccf00168f",
+    "price":177.5700073242,
+    "expense":7.0399999619,
+    "transactions":[
       "63bf7ccef0323922d2001698",
       "63bf7ccef03239855d00155c"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f032395ccf001690",
-    "price": "$172.71",
-    "expense": "$5.73",
-    "transactions": [
+    "_id":"63bf7ac9f032395ccf001690",
+    "price":172.7100067139,
+    "expense":5.7300000191,
+    "transactions":[
       "63bf7ccef03239966c00169d"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f032395ccf001691",
-    "price": "$17.48",
-    "expense": "$4.81",
-    "transactions": [
+    "_id":"63bf7ac9f032395ccf001691",
+    "price":17.4799995422,
+    "expense":4.8099999428,
+    "transactions":[
       "63bf7ccef0323974200016a0",
       "63bf7ccef0323937a5001692"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f032395ccf001692",
-    "price": "$54.13",
-    "expense": "$7.44",
-    "transactions": [
+    "_id":"63bf7ac9f032395ccf001692",
+    "price":54.1300010681,
+    "expense":7.4400000572,
+    "transactions":[
       "63bf7ccef0323922d2001694",
       "63bf7ccef03239eb9d0016df"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f032395ccf001693",
-    "price": "$155.93",
-    "expense": "$9.10",
-    "transactions": [
+    "_id":"63bf7ac9f032395ccf001693",
+    "price":155.9299926758,
+    "expense":9.1000003815,
+    "transactions":[
       "63bf7ccef03239343e0016a7",
       "63bf7ccef032394f5f002440",
       "63bf7ccef03239cf1b0016a9",
       "63bf7ccef032395ccf00169a"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f032397b4f0015fb",
-    "price": "$13.34",
-    "expense": "$6.17",
-    "transactions": [
+    "_id":"63bf7ac9f032397b4f0015fb",
+    "price":13.3400001526,
+    "expense":6.1700000763,
+    "transactions":[
       "63bf7ccef03239cf1b0016a4"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f032397b4f0015fc",
-    "price": "$75.89",
-    "expense": "$1.11",
-    "transactions": [
+    "_id":"63bf7ac9f032397b4f0015fc",
+    "price":75.8899993896,
+    "expense":1.1100000143,
+    "transactions":[
       "63bf7ccef03239aec900155f",
       "63bf7ccef03239966c0016a0",
       "63bf7ccef03239cf1b00169f",
       "63bf7ccef032394f5f002440"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f032397b4f0015fd",
-    "price": "$153.85",
-    "expense": "$6.99",
-    "transactions": [
+    "_id":"63bf7ac9f032397b4f0015fd",
+    "price":153.8500061035,
+    "expense":6.9899997711,
+    "transactions":[
       "63bf7ccef03239343e0016a3",
       "63bf7ccef0323974200016a3",
       "63bf7ccef0323975d600169c",
       "63bf7ccef03239742000169c",
       "63bf7ccef03239cf1b0016a3"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f032397b4f0015fe",
-    "price": "$187.83",
-    "expense": "$6.66",
-    "transactions": [
+    "_id":"63bf7ac9f032397b4f0015fe",
+    "price":187.8300018311,
+    "expense":6.6599998474,
+    "transactions":[
       "63bf7ccef0323937a5001692",
       "63bf7ccef03239aec9001559",
       "63bf7ccef0323922d200169b",
       "63bf7ccef0323922d200169c"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f032397b4f0015ff",
-    "price": "$119.33",
-    "expense": "$1.40",
-    "transactions": [
+    "_id":"63bf7ac9f032397b4f0015ff",
+    "price":119.3300018311,
+    "expense":1.3999999762,
+    "transactions":[
       "63bf7ccef032397b4f00160b",
       "63bf7ccef03239eb9d0016ce",
       "63bf7ccef03239eb9d0016d3",
       "63bf7ccef032397b4f001602",
       "63bf7ccef03239cf1b0016a7"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f032397b4f001600",
-    "price": "$54.00",
-    "expense": "$5.61",
-    "transactions": [
+    "_id":"63bf7ac9f032397b4f001600",
+    "price":54.0,
+    "expense":5.6100001335,
+    "transactions":[
       "63bf7ccef03239554c002454",
       "63bf7ccef032394cbd0016a9"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f0323922d200168e",
-    "price": "$144.81",
-    "expense": "$7.45",
-    "transactions": [
+    "_id":"63bf7ac9f0323922d200168e",
+    "price":144.8099975586,
+    "expense":7.4499998093,
+    "transactions":[
       "63bf7ccef032395ccf00169b",
       "63bf7ccef03239eb9d0016dd",
       "63bf7ccef03239eb9d0016d4"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f0323922d200168f",
-    "price": "$37.04",
-    "expense": "$5.86",
-    "transactions": [
+    "_id":"63bf7ac9f0323922d200168f",
+    "price":37.0400009155,
+    "expense":5.8600001335,
+    "transactions":[
       "63bf7ccef0323974200016a5"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f0323922d2001690",
-    "price": "$161.03",
-    "expense": "$4.48",
-    "transactions": [
+    "_id":"63bf7ac9f0323922d2001690",
+    "price":161.0299987793,
+    "expense":4.4800000191,
+    "transactions":[
       "63bf7ccef03239966c00169a"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f0323922d2001691",
-    "price": "$73.46",
-    "expense": "$7.95",
-    "transactions": [
+    "_id":"63bf7ac9f0323922d2001691",
+    "price":73.4599990845,
+    "expense":7.9499998093,
+    "transactions":[
       "63bf7ccef032395ccf001696",
       "63bf7ccef03239eb9d0016de",
       "63bf7ccef03239f92000168f",
       "63bf7ccef032394f5f00243e",
       "63bf7ccef032394cbd0016a5"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f0323922d2001692",
-    "price": "$120.96",
-    "expense": "$8.90",
-    "transactions": [
+    "_id":"63bf7ac9f0323922d2001692",
+    "price":120.9599990845,
+    "expense":8.8999996185,
+    "transactions":[
       "63bf7ccef032396a8e00169e",
       "63bf7ccef032397b4f001603"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f0323922d2001693",
-    "price": "$34.46",
-    "expense": "$9.25",
-    "transactions": [
+    "_id":"63bf7ac9f0323922d2001693",
+    "price":34.4599990845,
+    "expense":9.25,
+    "transactions":[
       "63bf7ccef032396d89000012",
       "63bf7ccef03239f920001697",
       "63bf7ccef0323937a5001694",
       "63bf7ccef03239855d00155b",
       "63bf7ccef032395ccf001697"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f032396d89000007",
-    "price": "$172.27",
-    "expense": "$3.92",
-    "transactions": [
+    "_id":"63bf7ac9f032396d89000007",
+    "price":172.2700042725,
+    "expense":3.9200000763,
+    "transactions":[
       "63bf7ccef03239554c00244b"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f032396d89000008",
-    "price": "$20.54",
-    "expense": "$8.12",
-    "transactions": [
+    "_id":"63bf7ac9f032396d89000008",
+    "price":20.5400009155,
+    "expense":8.1199998856,
+    "transactions":[
       "63bf7ccef03239855d001558"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f032396d89000009",
-    "price": "$80.31",
-    "expense": "$7.04",
-    "transactions": [
+    "_id":"63bf7ac9f032396d89000009",
+    "price":80.3099975586,
+    "expense":7.0399999619,
+    "transactions":[
       "63bf7ccef0323901e6001558",
       "63bf7ccef0323937a5001693",
       "63bf7ccef03239eb9d0016d9"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f032396d8900000a",
-    "price": "$77.67",
-    "expense": "$4.14",
-    "transactions": [
+    "_id":"63bf7ac9f032396d8900000a",
+    "price":77.6699981689,
+    "expense":4.1399998665,
+    "transactions":[
       "63bf7ccef03239343e0016ab"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f032396d8900000b",
-    "price": "$47.25",
-    "expense": "$5.53",
-    "transactions": [
+    "_id":"63bf7ac9f032396d8900000b",
+    "price":47.25,
+    "expense":5.5300002098,
+    "transactions":[
       "63bf7ccef03239343e0016a8",
       "63bf7ccef032394f5f00243e"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f032396d8900000c",
-    "price": "$181.02",
-    "expense": "$7.57",
-    "transactions": [
+    "_id":"63bf7ac9f032396d8900000c",
+    "price":181.0200042725,
+    "expense":7.5700001717,
+    "transactions":[
       "63bf7ccef0323922d2001698",
       "63bf7ccef03239eb9d0016e3",
       "63bf7ccef032396a8e00169c",
       "63bf7ccef032397b4f001608",
       "63bf7ccef032396d89000013"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239f920001689",
-    "price": "$67.20",
-    "expense": "$8.37",
-    "transactions": [
+    "_id":"63bf7ac9f03239f920001689",
+    "price":67.1999969482,
+    "expense":8.3699998856,
+    "transactions":[
       "63bf7ccef032396a8e00169b",
       "63bf7ccef03239343e0016a2",
       "63bf7ccef03239966c00169d",
       "63bf7ccef0323922d2001698",
       "63bf7ccef03239855d001561"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239f92000168a",
-    "price": "$58.15",
-    "expense": "$3.19",
-    "transactions": [
+    "_id":"63bf7ac9f03239f92000168a",
+    "price":58.1500015259,
+    "expense":3.1900000572,
+    "transactions":[
       "63bf7ccef03239f920001690"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f03239f92000168b",
-    "price": "$145.65",
-    "expense": "$3.83",
-    "transactions": [
+    "_id":"63bf7ac9f03239f92000168b",
+    "price":145.6499938965,
+    "expense":3.8299999237,
+    "transactions":[
       "63bf7ccef032394cbd0016aa"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f03239f92000168c",
-    "price": "$134.08",
-    "expense": "$7.03",
-    "transactions": [
+    "_id":"63bf7ac9f03239f92000168c",
+    "price":134.0800018311,
+    "expense":7.0300002098,
+    "transactions":[
       "63bf7ccef032396a8e00169a",
       "63bf7ccef032397b4f001604",
       "63bf7ccef03239eb9d0016d1",
       "63bf7ccef03239cf1b0016a7",
       "63bf7ccef03239eb9d0016ea"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239f92000168d",
-    "price": "$33.79",
-    "expense": "$4.54",
-    "transactions": [
+    "_id":"63bf7ac9f03239f92000168d",
+    "price":33.7900009155,
+    "expense":4.5399999619,
+    "transactions":[
       "63bf7ccef032394cbd0016a1",
       "63bf7ccef0323922d200169d",
       "63bf7ccef03239cf1b0016a1",
       "63bf7ccef0323975d60016a3",
       "63bf7ccef03239aec9001557"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239f92000168e",
-    "price": "$182.10",
-    "expense": "$9.54",
-    "transactions": [
+    "_id":"63bf7ac9f03239f92000168e",
+    "price":182.1000061035,
+    "expense":9.5399999619,
+    "transactions":[
       "63bf7ccef032396a8e001698",
       "63bf7ccef0323922d2001699",
       "63bf7ccef03239742000169c",
       "63bf7ccef03239aec900155d"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f032394f5f002433",
-    "price": "$129.93",
-    "expense": "$1.15",
-    "transactions": [
+    "_id":"63bf7ac9f032394f5f002433",
+    "price":129.9299926758,
+    "expense":1.1499999762,
+    "transactions":[
       "63bf7ccef0323975d600169a",
       "63bf7ccef032397b4f001604",
       "63bf7ccef03239966c001699",
       "63bf7ccef032397b4f001603"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f032394f5f002434",
-    "price": "$148.47",
-    "expense": "$1.63",
-    "transactions": [
+    "_id":"63bf7ac9f032394f5f002434",
+    "price":148.4700012207,
+    "expense":1.6299999952,
+    "transactions":[
       "63bf7ccef03239554c00244e",
       "63bf7ccef032395ccf00169f",
       "63bf7ccef0323937a500168d",
       "63bf7ccef0323975d60016a1"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f032394f5f002435",
-    "price": "$13.52",
-    "expense": "$9.76",
-    "transactions": [
+    "_id":"63bf7ac9f032394f5f002435",
+    "price":13.5200004578,
+    "expense":9.7600002289,
+    "transactions":[
       "63bf7ccef03239343e0016a3",
       "63bf7ccef03239966c00169f",
       "63bf7ccef03239cf1b0016a8",
       "63bf7ccef032395ccf00169d"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f032394f5f002436",
-    "price": "$120.88",
-    "expense": "$5.94",
-    "transactions": [
+    "_id":"63bf7ac9f032394f5f002436",
+    "price":120.8799972534,
+    "expense":5.9400000572,
+    "transactions":[
       "63bf7ccef03239e00200160d",
       "63bf7ccef03239cf1b0016a1",
       "63bf7ccef032396d8900000f"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f032394f5f002437",
-    "price": "$153.54",
-    "expense": "$9.63",
-    "transactions": [
+    "_id":"63bf7ac9f032394f5f002437",
+    "price":153.5399932861,
+    "expense":9.6300001144,
+    "transactions":[
       "63bf7ccef03239eb9d0016d0",
       "63bf7ccef032396d89000010"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f032394f5f002438",
-    "price": "$35.74",
-    "expense": "$8.71",
-    "transactions": [
+    "_id":"63bf7ac9f032394f5f002438",
+    "price":35.7400016785,
+    "expense":8.7100000381,
+    "transactions":[
       "63bf7ccef0323975d6001698",
       "63bf7ccef03239554c00244c",
       "63bf7ccef03239cf1b0016a0",
       "63bf7ccef032394f5f002442",
       "63bf7ccef03239f92000168f"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f0323937a5001687",
-    "price": "$120.21",
-    "expense": "$5.00",
-    "transactions": [
+    "_id":"63bf7ac9f0323937a5001687",
+    "price":120.2099990845,
+    "expense":5.0,
+    "transactions":[
       "63bf7ccef03239554c00244a",
       "63bf7ccef032394cbd0016a1",
       "63bf7ccef03239966c00169e",
       "63bf7ccef03239742000169f",
       "63bf7ccef03239eb9d0016e2"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f0323937a5001688",
-    "price": "$180.06",
-    "expense": "$6.39",
-    "transactions": [
+    "_id":"63bf7ac9f0323937a5001688",
+    "price":180.0599975586,
+    "expense":6.3899998665,
+    "transactions":[
       "63bf7ccef03239554c002453"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f0323937a5001689",
-    "price": "$92.70",
-    "expense": "$5.53",
-    "transactions": [
+    "_id":"63bf7ac9f0323937a5001689",
+    "price":92.6999969482,
+    "expense":5.5300002098,
+    "transactions":[
       "63bf7ccef03239343e0016a9",
       "63bf7ccef03239cf1b0016a1",
       "63bf7ccef032397b4f001609"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f0323937a500168a",
-    "price": "$35.39",
-    "expense": "$2.89",
-    "transactions": [
+    "_id":"63bf7ac9f0323937a500168a",
+    "price":35.3899993896,
+    "expense":2.8900001049,
+    "transactions":[
       "63bf7ccef0323937a5001694",
       "63bf7ccef03239eb9d0016da",
       "63bf7ccef0323937a5001698",
       "63bf7ccef03239eb9d0016e6"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f0323937a500168b",
-    "price": "$159.59",
-    "expense": "$3.54",
-    "transactions": [
+    "_id":"63bf7ac9f0323937a500168b",
+    "price":159.5899963379,
+    "expense":3.5399999619,
+    "transactions":[
       "63bf7ccef03239eb9d0016d9",
       "63bf7ccef032396a8e001697",
       "63bf7ccef032394cbd0016aa",
       "63bf7ccef03239f920001693"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f0323937a500168c",
-    "price": "$116.66",
-    "expense": "$5.60",
-    "transactions": [
+    "_id":"63bf7ac9f0323937a500168c",
+    "price":116.6600036621,
+    "expense":5.5999999046,
+    "transactions":[
       "63bf7ccef03239aec900155a",
       "63bf7ccef032394cbd0016a2",
       "63bf7ccef032396a8e001694",
       "63bf7ccef0323975d60016a0"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f03239855d001551",
-    "price": "$19.66",
-    "expense": "$6.43",
-    "transactions": [
+    "_id":"63bf7ac9f03239855d001551",
+    "price":19.6599998474,
+    "expense":6.4299998283,
+    "transactions":[
       "63bf7ccef03239eb9d0016d0",
       "63bf7ccef03239554c00244e",
       "63bf7ccef0323922d2001697"
-    ]
+    ],
+    "transactions_count":3
   },
   {
-    "_id": "63bf7ac9f03239855d001552",
-    "price": "$99.78",
-    "expense": "$7.03",
-    "transactions": [
+    "_id":"63bf7ac9f03239855d001552",
+    "price":99.7799987793,
+    "expense":7.0300002098,
+    "transactions":[
       "63bf7ccef03239eb9d0016cd",
       "63bf7ccef032395ccf001697",
       "63bf7ccef03239855d001558",
       "63bf7ccef03239966c00169c",
       "63bf7ccef0323922d2001696"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239855d001553",
-    "price": "$145.56",
-    "expense": "$9.40",
-    "transactions": [
+    "_id":"63bf7ac9f03239855d001553",
+    "price":145.5599975586,
+    "expense":9.3999996185,
+    "transactions":[
       "63bf7ccef0323922d2001694"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f03239855d001554",
-    "price": "$133.65",
-    "expense": "$1.03",
-    "transactions": [
+    "_id":"63bf7ac9f03239855d001554",
+    "price":133.6499938965,
+    "expense":1.0299999714,
+    "transactions":[
       "63bf7ccef0323937a5001690",
       "63bf7ccef03239f920001696",
       "63bf7ccef0323901e600155e",
       "63bf7ccef032396d89000018",
       "63bf7ccef0323901e6001560"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239855d001555",
-    "price": "$174.42",
-    "expense": "$5.30",
-    "transactions": [
+    "_id":"63bf7ac9f03239855d001555",
+    "price":174.4199981689,
+    "expense":5.3000001907,
+    "transactions":[
       "63bf7ccef03239aec9001558"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f03239855d001556",
-    "price": "$77.55",
-    "expense": "$1.01",
-    "transactions": [
+    "_id":"63bf7ac9f03239855d001556",
+    "price":77.5500030518,
+    "expense":1.0099999905,
+    "transactions":[
       "63bf7ccef03239e002001607"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f03239eb9d0016c3",
-    "price": "$103.01",
-    "expense": "$6.81",
-    "transactions": [
+    "_id":"63bf7ac9f03239eb9d0016c3",
+    "price":103.0100021362,
+    "expense":6.8099999428,
+    "transactions":[
       "63bf7ccef03239966c001699",
       "63bf7ccef03239554c00244e",
       "63bf7ccef03239eb9d0016cd",
       "63bf7ccef03239cf1b0016a8",
       "63bf7ccef032394f5f00243b"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239eb9d0016c4",
-    "price": "$88.02",
-    "expense": "$8.00",
-    "transactions": [
+    "_id":"63bf7ac9f03239eb9d0016c4",
+    "price":88.0199966431,
+    "expense":8.0,
+    "transactions":[
       "63bf7ccef0323901e600155f",
       "63bf7ccef03239eb9d0016e6"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239eb9d0016c5",
-    "price": "$119.84",
-    "expense": "$8.95",
-    "transactions": [
+    "_id":"63bf7ac9f03239eb9d0016c5",
+    "price":119.8399963379,
+    "expense":8.9499998093,
+    "transactions":[
       "63bf7ccef032395ccf001695",
       "63bf7ccef03239f920001695"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239eb9d0016c6",
-    "price": "$18.02",
-    "expense": "$5.48",
-    "transactions": [
+    "_id":"63bf7ac9f03239eb9d0016c6",
+    "price":18.0200004578,
+    "expense":5.4800000191,
+    "transactions":[
       "63bf7ccef03239e00200160b",
       "63bf7ccef032395ccf00169a",
       "63bf7ccef03239aec9001560",
       "63bf7ccef0323901e600155e",
       "63bf7ccef03239343e0016a9"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239eb9d0016c7",
-    "price": "$121.59",
-    "expense": "$7.27",
-    "transactions": [
+    "_id":"63bf7ac9f03239eb9d0016c7",
+    "price":121.5899963379,
+    "expense":7.2699999809,
+    "transactions":[
       "63bf7ccef0323975d600169b",
       "63bf7ccef032396a8e00169d",
       "63bf7ccef03239eb9d0016d5",
       "63bf7ccef03239e00200160e"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f03239eb9d0016c8",
-    "price": "$42.71",
-    "expense": "$7.26",
-    "transactions": [
+    "_id":"63bf7ac9f03239eb9d0016c8",
+    "price":42.7099990845,
+    "expense":7.2600002289,
+    "transactions":[
       "63bf7ccef032396a8e001696",
       "63bf7ccef032397b4f001608"
-    ]
+    ],
+    "transactions_count":2
   },
   {
-    "_id": "63bf7ac9f03239eb9d0016c9",
-    "price": "$106.89",
-    "expense": "$2.49",
-    "transactions": [
+    "_id":"63bf7ac9f03239eb9d0016c9",
+    "price":106.8899993896,
+    "expense":2.4900000095,
+    "transactions":[
       "63bf7ccef03239966c00169d"
-    ]
+    ],
+    "transactions_count":1
   },
   {
-    "_id": "63bf7ac9f03239eb9d0016ca",
-    "price": "$162.96",
-    "expense": "$2.18",
-    "transactions": [
+    "_id":"63bf7ac9f03239eb9d0016ca",
+    "price":162.9600067139,
+    "expense":2.1800000668,
+    "transactions":[
       "63bf7ccef03239f920001691",
       "63bf7ccef0323937a5001693",
       "63bf7ccef03239f920001694",
       "63bf7ccef0323901e600155b"
-    ]
+    ],
+    "transactions_count":4
   },
   {
-    "_id": "63bf7ac9f03239eb9d0016cb",
-    "price": "$102.90",
-    "expense": "$1.40",
-    "transactions": [
+    "_id":"63bf7ac9f03239eb9d0016cb",
+    "price":102.9000015259,
+    "expense":1.3999999762,
+    "transactions":[
       "63bf7ccef03239966c00169f",
       "63bf7ccef032394cbd0016a6",
       "63bf7ccef032395ccf00169d",
       "63bf7ccef032395ccf00169e",
       "63bf7ccef032396a8e001697"
-    ]
+    ],
+    "transactions_count":5
   },
   {
-    "_id": "63bf7ac9f03239eb9d0016cc",
-    "price": "$21.98",
-    "expense": "$7.86",
-    "transactions": [
+    "_id":"63bf7ac9f03239eb9d0016cc",
+    "price":21.9799995422,
+    "expense":7.8600001335,
+    "transactions":[
       "63bf7ccef03239343e0016a3",
       "63bf7ccef032397b4f001606",
       "63bf7ccef0323901e6001559"
-    ]
+    ],
+    "transactions_count":3
   }
 ]
