@@ -1,86 +1,86 @@
 [
   {
-    "month":"january",
-    "revenue":15989.6396484375,
-    "expense":14231.73046875,
-    "opexp":10340.0302734375,
-    "nonopexp":4891.7001953125
+    "month": "january",
+    "revenue": 15989.6396484375,
+    "expense": 14231.73046875,
+    "opexp": 10340.0302734375,
+    "nonopexp": 4891.7001953125
   },
   {
-    "month":"february",
-    "revenue":15832.76953125,
-    "expense":11677.83984375,
-    "opexp":7006.6899414062,
-    "nonopexp":8661.150390625
+    "month": "february",
+    "revenue": 15832.76953125,
+    "expense": 11677.83984375,
+    "opexp": 7006.6899414062,
+    "nonopexp": 8661.150390625
   },
   {
-    "month":"march",
-    "revenue":16481.26953125,
-    "expense":14664.0302734375,
-    "opexp":8797.419921875,
-    "nonopexp":7866.6098632812
+    "month": "march",
+    "revenue": 16481.26953125,
+    "expense": 14664.0302734375,
+    "opexp": 8797.419921875,
+    "nonopexp": 7866.6098632812
   },
   {
-    "month":"april",
-    "revenue":18229.380859375,
-    "expense":12336.51953125,
-    "opexp":7401.91015625,
-    "nonopexp":2934.6101074219
+    "month": "april",
+    "revenue": 18229.380859375,
+    "expense": 12336.51953125,
+    "opexp": 7401.91015625,
+    "nonopexp": 2934.6101074219
   },
   {
-    "month":"may",
-    "revenue":17401.7890625,
-    "expense":11160.6103515625,
-    "opexp":4296.3701171875,
-    "nonopexp":4864.240234375
+    "month": "may",
+    "revenue": 17401.7890625,
+    "expense": 11160.6103515625,
+    "opexp": 4296.3701171875,
+    "nonopexp": 4864.240234375
   },
   {
-    "month":"june",
-    "revenue":18274.029296875,
-    "expense":12311.6103515625,
-    "opexp":7386.9599609375,
-    "nonopexp":9924.650390625
+    "month": "june",
+    "revenue": 18274.029296875,
+    "expense": 12311.6103515625,
+    "opexp": 7386.9599609375,
+    "nonopexp": 9924.650390625
   },
   {
-    "month":"july",
-    "revenue":19349.98046875,
-    "expense":15431.8095703125,
-    "opexp":9258.08984375,
-    "nonopexp":7173.7202148438
+    "month": "july",
+    "revenue": 19349.98046875,
+    "expense": 15431.8095703125,
+    "opexp": 9258.08984375,
+    "nonopexp": 7173.7202148438
   },
   {
-    "month":"august",
-    "revenue":16647.2890625,
-    "expense":13213.7099609375,
-    "opexp":3127.8200683594,
-    "nonopexp":5085.8901367188
+    "month": "august",
+    "revenue": 16647.2890625,
+    "expense": 13213.7099609375,
+    "opexp": 3127.8200683594,
+    "nonopexp": 5085.8901367188
   },
   {
-    "month":"september",
-    "revenue":19344.0703125,
-    "expense":17405.919921875,
-    "opexp":10443.5498046875,
-    "nonopexp":4962.3701171875
+    "month": "september",
+    "revenue": 19344.0703125,
+    "expense": 17405.919921875,
+    "opexp": 10443.5498046875,
+    "nonopexp": 4962.3701171875
   },
   {
-    "month":"october",
-    "revenue":21160.220703125,
-    "expense":12990.580078125,
-    "opexp":3594.3500976562,
-    "nonopexp":9396.23046875
+    "month": "october",
+    "revenue": 21160.220703125,
+    "expense": 12990.580078125,
+    "opexp": 3594.3500976562,
+    "nonopexp": 9396.23046875
   },
   {
-    "month":"november",
-    "revenue":22655.029296875,
-    "expense":17140.80078125,
-    "opexp":10284.48046875,
-    "nonopexp":3856.3200683594
+    "month": "november",
+    "revenue": 22655.029296875,
+    "expense": 17140.80078125,
+    "opexp": 10284.48046875,
+    "nonopexp": 3856.3200683594
   },
   {
-    "month":"december",
-    "revenue":17757.75,
-    "expense":15266.9697265625,
-    "opexp":9160.1796875,
-    "nonopexp":4106.7900390625
+    "month": "december",
+    "revenue": 17757.75,
+    "expense": 15266.9697265625,
+    "opexp": 9160.1796875,
+    "nonopexp": 4106.7900390625
   }
 ]
