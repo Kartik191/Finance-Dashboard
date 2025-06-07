@@ -1,5 +1,5 @@
 
-import DashboardBox from "../component/DashboardBox"
+import DashboardBox from "../../components/DashboardBox"
 
 type Props = {};
 const Row2 = (props: Props) => {
