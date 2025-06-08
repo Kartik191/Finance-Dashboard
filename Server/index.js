@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({"extended": false}))
 app.use(cors())
 
 
-const uri = "mongodb+srv://shreyassharma1402:SWn1bb4rNXbA1UgO@finance-dashboard.axsrvdz.mongodb.net/?retryWrites=true&w=majority&appName=Finance-Dashboard";
+
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
