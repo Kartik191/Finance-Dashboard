@@ -5,9 +5,9 @@ type Props = {};
 const Row2 = (props: Props) => {
     return(
         <>
-            <DashboardBox gridArea="e"></DashboardBox>
+            {/* <DashboardBox gridArea="e"></DashboardBox> */}
             <DashboardBox gridArea="f"></DashboardBox>
-            <DashboardBox gridArea="g"></DashboardBox>
+            {/* <DashboardBox gridArea="g"></DashboardBox> */}
         </>
     )
 }
