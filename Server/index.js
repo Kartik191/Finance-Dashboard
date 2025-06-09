@@ -6,6 +6,8 @@ import dotenv from "dotenv";
 import helmet from "helmet";
 import morgan from "morgan";
 import { MongoClient, ServerApiVersion } from "mongodb";
+import productRoutes from './routes/product.js'
+import transactionRoutes from './routes/transaction.js'
 
 dotenv.config();
 const app = express();
@@ -20,9 +22,14 @@ app.use(cors());
 
 /*MONGOOSE SETUP */
 
-const PORT = process.env.PORT;
+// Routes
+app.use("/transaction", transactionRoutes);
+app.use("/product", productRoutes);
+
+const PORT = process.env.PORT || 8080
+// console.log(process.env.MONGO_URI);
 mongoose
-  .connect(process.env.MONGO_URL)
+  .connect(process.env.MONGO_URI)
   .then(async () => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
   })
