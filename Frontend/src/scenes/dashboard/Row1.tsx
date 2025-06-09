@@ -11,7 +11,6 @@ const Row1 = (props: Props) => {
         <DashboardBox gridArea="a"></DashboardBox>
         <DashboardBox gridArea="b"></DashboardBox>
         <DashboardBox gridArea="c"></DashboardBox>
-        <DashboardBox gridArea="d"></DashboardBox>
         </>
     )
 }
