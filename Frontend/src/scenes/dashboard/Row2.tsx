@@ -24,7 +24,7 @@ const Row2 = (props: Props) => {
     return(
         <>
             <DashboardBox gridArea="d">
-        <BoxHeader
+        {/* <BoxHeader
           title="Operational vs Non-Operational Expenses"
           sidetext="+4%"
         />
@@ -63,7 +63,7 @@ const Row2 = (props: Props) => {
               style={{ fontSize: "10px" }}
             />
             <Tooltip />
-            {/* Remove Legend */}
+            
             <Legend
               height={20}
               wrapperStyle={{
@@ -83,7 +83,7 @@ const Row2 = (props: Props) => {
               stroke={palette.primary.main}
             />
           </LineChart>
-        </ResponsiveContainer>
+        </ResponsiveContainer> */}
       </DashboardBox>
             <DashboardBox gridArea="f"></DashboardBox>
         </>
