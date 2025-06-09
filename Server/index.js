@@ -20,10 +20,10 @@ app.use(cors());
 
 /*MONGOOSE SETUP */
 
-const port = process.env.PORT || 9000;
+const PORT = process.env.PORT;
 mongoose
   .connect(process.env.MONGO_URL)
   .then(async () => {
-    app.listen(PORT, () => console.log(`Server Port: ${PORT})`));
+    app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
   })
   .catch((error) => console.log(`${error} did not connect`));
