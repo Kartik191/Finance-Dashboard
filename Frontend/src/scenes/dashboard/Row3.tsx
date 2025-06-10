@@ -17,25 +17,27 @@ const Row3 = () => {
     console.log("kp")
     console.log(kpiData)
 
-  const pieChartData = useMemo(() => {
-    if (kpiData) {
-      const totalExpenses = kpiData[0].totalExpenses;
-      return Object.entries(kpiData[0].expensesByCategory).map(
-        ([key, value]) => {
-          return [
-            {
-              name: key,
-              value: value,
-            },
-            {
-              name: `${key} of Total`,
-              value: (totalExpenses - value).toFixed(2),
-            },
-          ];
+    const pieChartData = useMemo(() => {
+        if (kpiData && kpiData[0] &&
+    kpiData[0].expensesByCategory) {
+            const totalExpenses = kpiData[0].totalExpenses;
+            return Object.entries(kpiData[0].expensesByCategory).map(
+                ([key, value]) => {
+                    return [
+                        {
+                            name: key, 
+                            value: value
+                        },
+                        {
+                            name: `${key} of Total`,
+                            value: totalExpenses-value
+                        }
+                    ]
+                }
+            )
+            
         }
-      );
-    }
-  }, [kpiData]);
+        }, [kpiData])
 
   const transactionColumns = [
     {
