@@ -2,24 +2,21 @@
 import { useGetKpisQuery, useGetProductsQuery, useGetTransactionsQuery } from "@/state/api";
 import DashboardBox from "../../components/DashboardBox"
 import BoxHeader from "@/components/BoxHeader";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { DataGrid, GridCellParams } from '@mui/x-data-grid';
 import {useTheme} from "@mui/material";
 import { useMemo } from "react";
+import FlexBetween from "@/components/FlexBetween";
+import { Cell, Pie, PieChart } from "recharts";
+
+
 /*
 h: Recent Orders
 s: expense breakdwon by category
 */
-// get KPI data-
-
-
-
-
-
-
-
 const Row3 = () => {
     const { palette } = useTheme();
+    const pieColors = [palette.primary[800], palette.primary[500]];
     const {data: transactionData } = useGetTransactionsQuery();
     const {data: kpiData } = useGetKpisQuery();
 
@@ -111,14 +108,30 @@ const Row3 = () => {
 
 
             
-            <DashboardBox gridArea="i">y
-                <BoxHeader title="Expense Breakdown by category" sidetext="+4%">
-                <FlexBetween mt="0.5rem" gap="0.5rem" p="0 1rem"  textAlign="center">
-                </FlexBetween>
-                
-                </BoxHeader>
-
-            </DashboardBox>
+            <DashboardBox gridArea="i">
+        <BoxHeader title="Expense Breakdown By Category" sidetext="+4%" />
+        <FlexBetween mt="0.5rem" gap="0.5rem" p="0 1rem" textAlign="center">
+          {pieChartData?.map((data, i) => (
+            <Box key={`${data[0].name}-${i}`}>
+              <PieChart width={110} height={100}>
+                <Pie
+                  stroke="none"
+                  data={data}
+                  innerRadius={18}
+                  outerRadius={35}
+                  paddingAngle={2}
+                  dataKey="value"
+                >
+                  {data.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={pieColors[index]} />
+                  ))}
+                </Pie>
+              </PieChart>
+              <Typography variant="h5">{data[0].name}</Typography>
+            </Box>
+          ))}
+        </FlexBetween>
+      </DashboardBox>
         </>
     )
 }
