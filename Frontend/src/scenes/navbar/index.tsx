@@ -31,7 +31,9 @@ const Navbar = (props: Props) => {
               color: selected === "dashboard" ? "inherit" : palette.grey[700],
               textDecoration: "inherit",
             }}
-          >dashboard</Link>
+          >
+            dashboard
+          </Link>
         </Box>
         <Box sx={{ "&:hover": { color: palette.primary[100] } }}>
           <Link
@@ -41,7 +43,9 @@ const Navbar = (props: Props) => {
               color: selected === "dashboard" ? "inherit" : palette.grey[700],
               textDecoration: "inherit",
             }}
-          >predicion</Link>
+          >
+            predicion
+          </Link>
         </Box>
       </FlexBetween>
     </FlexBetween>

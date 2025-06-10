@@ -12,7 +12,7 @@ type Props = {
 }
 const BoxHeader = ({title, sidetext, subtitle, icon}:Props) => {
     const { palette } = useTheme();
-g
+
   return (
     <FlexBetween>
         <FlexBetween>
