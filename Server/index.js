@@ -7,9 +7,10 @@ import helmet from "helmet";
 import morgan from "morgan";
 import kpiRoutes from "./routes/kpi.js";
 import KPI from "./models/KPI.js";
-import { kpis } from "./data/data.js";
+import { kpis, transactions } from "./data/data.js";
 import productRoutes from './routes/product.js'
 import transactionRoutes from './routes/transaction.js'
+import Transaction from "./models/Transaction.js";
 
 dotenv.config();
 const app = express();
@@ -34,7 +35,6 @@ mongoose
   .connect(process.env.MONGO_URL)
   .then(async () => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
-
-    /*KPI.insertMany(kpis);*/
+    // Transaction.insertMany(transactions);
   })
   .catch((error) => console.log(`${error} did not connect`));

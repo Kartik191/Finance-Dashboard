@@ -71,7 +71,7 @@ const KPISchema = new Schema(
         type: mongoose.Types.Currency,
         Currency: "USD",
         get: (v) => v / 100,
-      },
+      }
     },
     monthlyData: [monthSchema],
     dailyData: [daySchema],
