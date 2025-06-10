@@ -17,7 +17,8 @@ const Row3 = () => {
     console.log(kpiData)
 
     const pieChartData = useMemo(() => {
-        if (kpiData) {
+        if (kpiData && kpiData[0] &&
+    kpiData[0].expensesByCategory) {
             const totalExpenses = kpiData[0].totalExpenses;
             return Object.entries(kpiData[0].expensesByCategory).map(
                 ([key, value]) => {
