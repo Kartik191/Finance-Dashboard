@@ -1,24 +1,20 @@
 
-import { useGetKpisQuery, useGetProductsQuery, useGetTransactionsQuery } from "@/state/api";
-import DashboardBox from "../../components/DashboardBox"
 import BoxHeader from "@/components/BoxHeader";
-import { Box, Typography } from "@mui/material";
-import { DataGrid, GridCellParams } from '@mui/x-data-grid';
-import {useTheme} from "@mui/material";
-import { useMemo } from "react";
+import DashboardBox from "../../components/DashboardBox"
 import FlexBetween from "@/components/FlexBetween";
+import { useGetKpisQuery, useGetProductsQuery, useGetTransactionsQuery } from "@/state/api";
+import { Box, Typography, useTheme} from "@mui/material";
+import { DataGrid, GridCellParams } from '@mui/x-data-grid';
+import React, { useMemo } from "react";
 import { Cell, Pie, PieChart } from "recharts";
 
-
-/*
-h: Recent Orders
-s: expense breakdwon by category
-*/
 const Row3 = () => {
     const { palette } = useTheme();
     const pieColors = [palette.primary[800], palette.primary[500]];
     const {data: transactionData } = useGetTransactionsQuery();
     const {data: kpiData } = useGetKpisQuery();
+    console.log("kp")
+    console.log(kpiData)
 
     const pieChartData = useMemo(() => {
         if (kpiData) {
@@ -67,7 +63,6 @@ const Row3 = () => {
     },
   ];
 
-    
         return(
         <>
             <DashboardBox gridArea="h">
@@ -105,8 +100,6 @@ const Row3 = () => {
         </Box>
 
             </DashboardBox>
-
-
             
             <DashboardBox gridArea="i">
         <BoxHeader title="Expense Breakdown By Category" sidetext="+4%" />
