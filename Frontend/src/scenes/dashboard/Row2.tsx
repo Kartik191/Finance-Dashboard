@@ -1,9 +1,10 @@
 
-import { useGetProductsQuery } from "@/state/api";
+import { useGetKpisQuery, useGetProductsQuery } from "@/state/api";
 import DashboardBox from "../../components/DashboardBox"
-import { LineChart, Line, XAxis, YAxis,  CartesianGrid, Legend, Tooltip, ResponsiveContainer} from "recharts";
+import { LineChart, Line, XAxis, YAxis,  CartesianGrid, Legend, Tooltip, ResponsiveContainer, ScatterChart, Scatter, ZAxis} from "recharts";
 import BoxHeader from "@/components/BoxHeader";
 import { useTheme } from "@mui/material";
+import { useMemo } from "react";
 // import { useMemo } from "react";
 
 
@@ -13,25 +14,48 @@ import { useTheme } from "@mui/material";
 type Props = {};
 const Row2 = (props: Props) => {
     const {palette} = useTheme();
-    const { data } = useGetProductsQuery();
-    console.log("got data");
-    console.log(data);
-    const operationalExpenses = null;
+    const { data: operationalData } = useGetKpisQuery()
+    const { data: productData } = useGetProductsQuery();
+    console.log("showing data");
+    console.log(operationalData && operationalData[0].monthlyData);
+
     
-    // const operationalExpenses = useMemo(() => {
-    //     data && 
-    // })
+    const operationalExpenses = useMemo(() => {
+      return(
+        operationalData &&
+        operationalData[0].monthlyData.map(({month, operationalExpenses, nonOperationalExpenses}) => {
+            return {
+              name: month.substring(0, 3),
+              "Operational Expenses": Number(operationalExpenses),
+              "Non Operational Expenses": Number(nonOperationalExpenses)
+            }
+          }
+        )
+      );
+    }, [operationalData])
+
+    const productExpenses = useMemo(() => {
+      return(
+        productData &&
+        productData.map(({_id, price, expense}) => {
+          return {
+            id: _id,
+            price: price,
+            expense: expense
+          };
+        }) 
+      );
+    }, [productData])
     return(
         <>
             <DashboardBox gridArea="d">
-        {/* <BoxHeader
+        <BoxHeader
           title="Operational vs Non-Operational Expenses"
           sidetext="+4%"
         />
         <ResponsiveContainer width="100%" height="100%">
           <LineChart
-            width={500}
-            height={400}
+
             data={operationalExpenses}
             margin={{
               top: 20,
@@ -51,7 +75,6 @@ const Row2 = (props: Props) => {
               orientation="left"
               tickLine={false}
               axisLine={false}
-              dataKey="Non-Operational-Expenses"
               style={{ fontSize: "10px" }}
             />
             <YAxis
@@ -59,7 +82,6 @@ const Row2 = (props: Props) => {
               orientation="right"
               tickLine={false}
               axisLine={false}
-              dataKey="Operational-Expenses"
               style={{ fontSize: "10px" }}
             />
             <Tooltip />
@@ -73,19 +95,60 @@ const Row2 = (props: Props) => {
             <Line
               yAxisId="left"
               type="monotone"
-              dataKey="profit"
+              dataKey="Non Operational Expenses"
               stroke={palette.tertiary[500]}
             />
             <Line
               yAxisId="right"
               type="monotone"
-              dataKey="revenue"
+              dataKey="Operational Expenses"
               stroke={palette.primary.main}
             />
           </LineChart>
-        </ResponsiveContainer> */}
+        </ResponsiveContainer>
       </DashboardBox>
-            <DashboardBox gridArea="f"></DashboardBox>
+            <DashboardBox gridArea="f">
+        <BoxHeader 
+        title="Product Prices vs Expenses" 
+        sidetext="+4%" />
+        <ResponsiveContainer width="100%" height="100%">
+          <ScatterChart
+            margin={{
+              top: 20,
+              right: 25,
+              bottom: 40,
+              left: -10,
+            }}
+          >
+            <CartesianGrid stroke={palette.grey[800]} />
+            <XAxis
+              type="number"
+              name="price"
+              dataKey="price"
+              axisLine={false}
+              tickLine={false}
+              style={{ fontSize: "10px" }}
+              tickFormatter={(v) => `$${v}`}
+            />
+            <YAxis
+              type="number"
+              name="expense"
+              dataKey="expense"
+              axisLine={false}
+              tickLine={false}
+              style={{ fontSize: "10px" }}
+              tickFormatter={(v) => `$${v}`}
+            />
+            <ZAxis type="number" range={[20]} />
+            <Tooltip formatter={(v) => `$${v}`} />
+            <Scatter
+              name="Product Expense Ratio"
+              data={productData}
+              fill={palette.tertiary[500]}
+            />
+          </ScatterChart>
+        </ResponsiveContainer>
+      </DashboardBox>
         </>
     )
 }
