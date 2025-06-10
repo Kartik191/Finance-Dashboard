@@ -35,6 +35,6 @@ mongoose
   .then(async () => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
 
-    KPI.insertMany(kpis);
+    /*KPI.insertMany(kpis);*/
   })
   .catch((error) => console.log(`${error} did not connect`));
