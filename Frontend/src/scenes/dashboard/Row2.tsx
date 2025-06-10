@@ -11,8 +11,7 @@ import { useMemo } from "react";
 
 
 
-type Props = {};
-const Row2 = (props: Props) => {
+const Row2 = () => {
     const {palette} = useTheme();
     const { data: operationalData } = useGetKpisQuery()
     const { data: productData } = useGetProductsQuery();
