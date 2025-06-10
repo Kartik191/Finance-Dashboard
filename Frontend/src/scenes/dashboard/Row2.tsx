@@ -16,8 +16,8 @@ const Row2 = (props: Props) => {
     const {palette} = useTheme();
     const { data: operationalData } = useGetKpisQuery()
     const { data: productData } = useGetProductsQuery();
-    console.log("showing data");
-    console.log(operationalData && operationalData[0].monthlyData);
+    // console.log("showing data");
+    // console.log(operationalData && operationalData[0].monthlyData);
 
     
     const operationalExpenses = useMemo(() => {
