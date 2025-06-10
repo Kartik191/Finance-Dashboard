@@ -1,28 +1,22 @@
 import {
   useGetKpisQuery,
 
-  useGetTransactionsQuery,
-} from "@/state/api";
-import DashboardBox from "../../components/DashboardBox";
 import BoxHeader from "@/components/BoxHeader";
-import { Box, Typography } from "@mui/material";
-import { DataGrid, GridCellParams } from "@mui/x-data-grid";
-import { useTheme } from "@mui/material";
-import { useMemo } from "react";
+import DashboardBox from "../../components/DashboardBox"
 import FlexBetween from "@/components/FlexBetween";
+import { useGetKpisQuery, useGetProductsQuery, useGetTransactionsQuery } from "@/state/api";
+import { Box, Typography, useTheme} from "@mui/material";
+import { DataGrid, GridCellParams } from '@mui/x-data-grid';
+import React, { useMemo } from "react";
 import { Cell, Pie, PieChart } from "recharts";
-/*
-h: Recent Orders
-s: expense breakdwon by category
-*/
-// get KPI data-
 
 const Row3 = () => {
-  const { palette } = useTheme();
-  const pieColors = [palette.primary[800], palette.primary[500]];
-
-  const { data: transactionData } = useGetTransactionsQuery();
-  const { data: kpiData } = useGetKpisQuery();
+    const { palette } = useTheme();
+    const pieColors = [palette.primary[800], palette.primary[500]];
+    const {data: transactionData } = useGetTransactionsQuery();
+    const {data: kpiData } = useGetKpisQuery();
+    console.log("kp")
+    console.log(kpiData)
 
   const pieChartData = useMemo(() => {
     if (kpiData) {
@@ -70,10 +64,10 @@ const Row3 = () => {
     },
   ];
 
-  return (
-    <>
-      <DashboardBox gridArea="h">
-        <BoxHeader
+        return(
+        <>
+            <DashboardBox gridArea="h">
+                <BoxHeader
           title="Recent Orders"
           sidetext={`${transactionData?.length} latest transactions`}
         />
@@ -105,10 +99,11 @@ const Row3 = () => {
             columns={transactionColumns}
           />
         </Box>
-      </DashboardBox>
 
-      <DashboardBox gridArea="i">
-        <BoxHeader title="Expense Breakdown By Category" sideText="+4%" />
+            </DashboardBox>
+            
+            <DashboardBox gridArea="i">
+        <BoxHeader title="Expense Breakdown By Category" sidetext="+4%" />
         <FlexBetween mt="0.5rem" gap="0.5rem" p="0 1rem" textAlign="center">
           {pieChartData?.map((data, i) => (
             <Box key={`${data[0].name}-${i}`}>
@@ -131,8 +126,8 @@ const Row3 = () => {
           ))}
         </FlexBetween>
       </DashboardBox>
-    </>
-  );
-};
+        </>
+    )
+}
 
 export default Row3;
