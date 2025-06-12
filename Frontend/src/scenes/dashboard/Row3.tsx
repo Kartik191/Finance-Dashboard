@@ -18,27 +18,24 @@ const Row3 = () => {
     console.log(kpiData)
 
     const pieChartData = useMemo(() => {
-        if (kpiData && kpiData[0] &&
-    kpiData[0].expensesByCategory) {
-            const totalExpenses = kpiData[0].totalExpenses;
-            return Object.entries(kpiData[0].expensesByCategory).map(
-                ([key, value]) => {
-                    return [
-                        {
-                            name: key, 
-                            value: value
-                        },
-                        {
-                            name: `${key} of Total`,
-                            value: totalExpenses-value
-                        }
-                    ]
-                }
-            )
-            
+    if (kpiData) {
+      const totalExpenses = kpiData[0].totalExpenses;
+      return Object.entries(kpiData[0].expensesByCategory).map(
+        ([key, value]) => {
+          return [
+            {
+              name: key,
+              value: value,
+            },
+            {
+              name: `${key} of Total`,
+              value: totalExpenses - value,
+            },
+          ];
         }
-        }, [kpiData])
-
+      );
+    }
+  }, [kpiData]);
   const transactionColumns = [
     {
       field: "_id",
@@ -104,7 +101,7 @@ const Row3 = () => {
             </DashboardBox>
             
             <DashboardBox gridArea="i">
-        <BoxHeader title="Expense Breakdown By Category" sidetext="+4%" />
+        <BoxHeader title="Expense Breakdown By Category" sideText="+4%" />
         <FlexBetween mt="0.5rem" gap="0.5rem" p="0 1rem" textAlign="center">
           {pieChartData?.map((data, i) => (
             <Box key={`${data[0].name}-${i}`}>
