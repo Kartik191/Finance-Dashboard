@@ -15,27 +15,30 @@ const Row3 = () => {
     const {data: transactionData } = useGetTransactionsQuery();
     const {data: kpiData } = useGetKpisQuery();
     console.log("kp")
-    console.log(kpiData)
 
     const pieChartData = useMemo(() => {
-    if (kpiData) {
-      const totalExpenses = kpiData[0].totalExpenses;
-      return Object.entries(kpiData[0].expensesByCategory).map(
-        ([key, value]) => {
-          return [
-            {
-              name: key,
-              value: value,
-            },
-            {
-              name: `${key} of Total`,
-              value: totalExpenses - value,
-            },
-          ];
+        if (kpiData && kpiData[0] &&
+    kpiData[0].expensesByCategory) {
+      const cleanedData = Object.fromEntries(Object.entries(kpiData[0].expensesByCategory).filter(([key, _]) => !key.startsWith('$*')))
+            const totalExpenses = kpiData[0].totalExpenses;
+            return Object.entries(cleanedData).map(
+                ([key, value]) => {
+                    return [
+                        {
+                            name: key, 
+                            value: value
+                        },
+                        {
+                            name: `${key} of Total`,
+                            value: totalExpenses-value
+                        }
+                    ]
+                }
+            )
+            
         }
-      );
-    }
-  }, [kpiData]);
+        }, [kpiData])
+
   const transactionColumns = [
     {
       field: "_id",
