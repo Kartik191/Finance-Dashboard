@@ -26,7 +26,7 @@ parameter_samples = {
 }
 
 # Revenue values since ARIMA uses previous values for forecast
-with open('./data/kpis_revenue_only.json','r') as f:
+with open('./kpis_revenue_only.json','r') as f:
     d = json.load(f)
 
 STATIC_HISTORY = d 
@@ -42,6 +42,25 @@ def predict():
     )
     return jsonify({
         "predictions": forecast_dist.mean().numpy().tolist()
+    })
+
+def moving_average(data, win=7):
+    return np.convolve(data, np.ones(win)/win, mode='valid') # Smoothing the predictions to keep the general trend and neglecting specific outliers
+                       
+@app.route('/predictQuart', methods = ['GET'])
+def predictQuart():
+    history = np.array(STATIC_HISTORY, dtype=np.float32)
+    forecast_dist = tfp.sts.forecast(
+        model=arima,    # Model Obv
+        observed_time_series=history,   # Revenue history
+        parameter_samples=parameter_samples,    # Params
+        num_steps_forecast=90   # 90 for the quarter
+    )
+
+    pred = forecast_dist.mean().numpy()
+
+    return jsonify({
+        "predictions": moving_average(pred, 7).tolist() # Smoothing since further prediction causes wrong predictions at times 
     })
 
 if __name__ == '__main__':
