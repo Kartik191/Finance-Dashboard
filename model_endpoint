@@ -33,10 +33,6 @@ STATIC_HISTORY = d
 
 @app.route('/predict', methods=['GET'])
 def predict():
-    """
-    Returns next 30 days of revenue predictions using static history.
-    Output: {"predictions": [values]}
-    """
     history = np.array(STATIC_HISTORY, dtype=np.float32)
     forecast_dist = tfp.sts.forecast(
         model=arima,    # Model Obv
